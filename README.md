@@ -32,8 +32,3 @@ Uses central difference in space, Crank-Nicolson in time. Stable for all time st
 
 ## Author
 Malika Hurain – MSc student applying to UoA PhD in Optimization/ML
-**What I fixed:**
-1. Removed duplicate “Results” and “Method” sections
-2. Put both images together under one Results heading
-3. Bolded the Method bullets so it scans faster
-4. Kept the Optimization/ML line – that’s the hook for UoA
