@@ -8,6 +8,17 @@ Solves the 2D heat equation ∂u/∂t = α(∂²u/∂x² + ∂²u/∂y²) using 
 - NumPy vectorized implementation
 - Animated visualization of temperature evolution
 
+## Files
+- `heat_solver.py` – Main solver using Finite Difference Method
+- `method_comparison.py` – Compares explicit vs implicit vs Crank-Nicolson schemes
+
+## Results
+Explicit method: 
+![Explicit](heat_solver.png)
+
+Method comparison:
+![Comparison](method_comparison.png)
+
 ## Run it
 ```bash
 pip install -r requirements.txt
