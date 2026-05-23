@@ -1,2 +1,14 @@
-# 2D-Heat-Equation-Python
-This project studies the 2D heat equation using FTCS and Crank–Nicolson finite difference methods in Python. FTCS shows second-order convergence but is conditionally stable under the CFL condition, while Crank–Nicolson remains unconditionally stable for larger time steps.
+# 2D Heat Equation Solver in Python
+
+Solves the 2D heat equation ∂u/∂t = α(∂²u/∂x² + ∂²u/∂y²) using the Finite Difference Method.
+
+## Features
+- Crank-Nicolson implicit scheme for stability
+- Dirichlet and Neumann boundary conditions  
+- NumPy vectorized implementation
+- Animated visualization of temperature evolution
+
+## Run it
+```bash
+pip install -r requirements.txt
+python heat_solver.py
